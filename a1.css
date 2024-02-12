@@ -16,6 +16,14 @@
     /* Make the background image fixed */
     height: 100vh;
     padding-top: 30px;
+    margin-top: 150px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* Set the height to the full viewport height */
+        position: relative;
+        /*
     /* Add padding to adjust for fixed header */
 }
 
