@@ -49,7 +49,7 @@ body {
 }
 
 .bb {
-    position: relative;
+    position: absolute;
 }
 
 .mainleftnav {
@@ -65,20 +65,18 @@ body {
 }
 
 .z1 {
-    width:25%;
-    /* Adjust width for smaller screens */
-    margin-top: 20px;
-    /* Add gap between mainleftnav and z1 */
-    margin-left: auto;
-    margin-right: auto;
+    /* Adjust width as needed */
+    /* Set margin to 'auto' for horizontal centering */
     border-radius: 12px;
-    background-color: rgba(175, 145, 145, 0.5);
+    margin: auto;
+    background-color: rgba(35, 81, 209, 0.5);
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    border: 2px solid;
+    border: 2px solid; 
+    position: abs;
+    width: 350px;
     /* Add padding for better spacing */
 }
 
@@ -91,7 +89,7 @@ body {
     padding: 10px;
     border-radius: 8px;
     background-color: #fff2f2;
-    width: 100%;
+    width: 80%;
 }
 
 .cs1,
@@ -124,56 +122,10 @@ body {
 .sep2 {
     background-color: rgb(0, 0, 0);
     height: 1px;
-    width: 100%;
+    width: 50%;
     margin-top: 20px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .lg1 {
-        width: 150px;
-    }
-
-    .l1 {
-        width: 80px;
-        /* Adjust width for smaller screens */
-    }
-
-    .mainleftnav {
-        width: calc(100% - 40px);
-        /* Adjust width for smaller screens */
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .z1 {
-        width: 90%;
-        /* Adjust width for smaller screens */
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .lg1 {
-        width: 120px;
-    }
-
-    .l1 {
-        width: 60px;
-        /* Adjust width for smaller screens */
-    }
-
-    .mainleftnav {
-        width: calc(100% - 20px);
-        /* Adjust width for smaller screens */
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .z1 {
-        width: 100%;
-        /* Adjust width for smaller screens */
-    }
-}
 
 
 .bv1 {
